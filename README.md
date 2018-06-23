@@ -7,7 +7,7 @@ Code you add to a project should matches the style of the code surrounding it re
 
 ## Naming
 
-Variable, function, and class names should use camelCase with the first word lowercase and following words connected without space and capitalized.
+Variable, function, and object class names should use camelCase with the first word lowercase and following words connected without space and capitalized.
 
 CSS class names should be lowercase and separated by dashes.
 
