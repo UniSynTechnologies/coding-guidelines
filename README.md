@@ -41,7 +41,7 @@ function addHeat(object) {
 }
 ```
 
-## Style
+## Code Style
 Try to keep lines below 120 characters long. This is a reasonable length on the average 1920x1080 monitor before word wrap kicks in.
 
 Keep ternary conditions on the same line. If you think it needs multiple lines then it should be a normal condition with if else and curly bracers "{}".
