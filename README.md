@@ -60,7 +60,7 @@ As also seen above, for inline elements such as span or a links, it is generally
 ```
 This assists with readability of the hierarchy of the code while also allowing you to easily guess what the page being generated will look like based on the flow and new lines in the code.
 
-All files should have 1 blank line at the end of the file. Lots of ddiscussion about this general "rule" here: https://stackoverflow.com/questions/729692/why-should-text-files-end-with-a-newline but it really comes down to being because some text parsers only could lines ending in new line characters are actual lines to parse. So if our code is ever passed through a 3rd party parser for minification or uglification or some other automated process there is a slight chance this could be a problem.
+All files should have 1 blank line at the end of the file. Lots of discussion about this general "rule" here: https://stackoverflow.com/questions/729692/why-should-text-files-end-with-a-newline but it really comes down to being because some text parsers only could lines ending in new line characters are actual lines to parse. So if our code is ever passed through a 3rd party parser for minification or uglification or some other automated process there is a slight chance this could be a problem.
 
 ![](https://s3.amazonaws.com/unisyn-wp-assets/wp-content/uploads/2018/02/02234458/coding-style-1.png)
 ![](https://s3.amazonaws.com/unisyn-wp-assets/wp-content/uploads/2018/02/02234501/coding-style-2.png)
