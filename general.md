@@ -1,3 +1,5 @@
+[Back to index](https://github.com/UniSynTechnologies/coding-guidelines)
+
 ## Concepts
 When possible, use a preexisting style rule or function instead of recreating the wheel by making your own. The chances that what you are trying to achieve has been done in some form already are pretty high.
 
