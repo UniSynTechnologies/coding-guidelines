@@ -25,7 +25,7 @@ return defer.promise;
 
 So an example would be like this
 ```
-$scope.getUserDetails = function() {
+function getUserDetails() {
     var defer = $q.defer();
     User.get({}, function(userDetails, error) {
         if (typeof(error) !== 'undefined' && error.length) {
@@ -41,7 +41,7 @@ $scope.getUserDetails = function() {
 
 Then when you call the function you can do this
 ```
-$scope.getUserDetails.then(function(userDetails) {
+getUserDetails.then(function(userDetails) {
     $scope.userDetails = userDetails;
     $scope.checkForNewsfeedPermit();
     dataLoaded();
@@ -55,3 +55,4 @@ $scope.getUserDetails.then(function(userDetails) {
     $mdToast.show(loadUserDetailsErrorToast);
 });
 ```
+The first function is the resolve success function and the second is the reject error function.
